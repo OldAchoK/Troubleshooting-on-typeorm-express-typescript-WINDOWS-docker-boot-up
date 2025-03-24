@@ -13,6 +13,7 @@
   -  ERROR: NODE_PATH is not defined(smth like that)<br>
 </p>
 <h2> Unable to get image </h2>
+<img src="/img/8.png">
 <p> SOLUTION: Boot up Docker Desktop, if you don't have such, then download it.</p>
 <br>
 <h2> ERROR: NODE_PATH is not defined(smth like that) </h2>
@@ -33,8 +34,10 @@
 <p>
   -  if your containers are working open them in Docker Desktop<br>
   -  open your containers group(it simply copy name of ur WebStorm project)<br>
+ <img src="/img/1.png">
   -  open be_boilerplate container<br>
   -  open EXEC tab<br>
+ <img src="/img/2.png">
   -  when terminal starts paste such command "which bash"<br>
   -  if there is nothing then skip one next step<br>
   -  if there is the path to bash derictory than copy it<br>
@@ -44,6 +47,7 @@
 </p>
 <br>
 <h2> ERROR: connect ECONNREFUSED</h2>
+<img src="/img/7.png">
 <p> At first I would advice to check all previous solutions because this one could simply be mask of other root problems<br>
  If there is nothing helped then check ur docker-compose.dev.yml container image and .env file<br>
  They must have on lines 11 (container image file) and 7 (.env) have ports and there must be followed such rule:<br>
@@ -55,10 +59,12 @@
   So to avoid problem of connection open docker-compose.dev.yml container image file<br>
   and change line 11 to such look '????(your numbers):5432'<br>
   and change port to your numbers on DataBase connection properties</p>
+  <img src="/img/3.png">
  <br>
  <h2>"cross-env" error</h2>
  <img src="/img/5.png">
  <p> If after debugging program you face such error than simply "rollback" your package.json</p>
+ <img src="/img/4.png">
  <br>
  <h2> In conclusion</h2>
  <p> In this topic was described most common problems that have me and my fellow students on setting up this proj on WINDOWS<br>
