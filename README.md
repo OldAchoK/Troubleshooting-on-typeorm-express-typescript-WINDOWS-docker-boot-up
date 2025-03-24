@@ -50,12 +50,14 @@
  '????(your numbers):5432' and PG_PORT=5432, the numbers that are defined must be like that no other way</p>
  <br>
  <h2> Some alien symbols on failed DataBase connection</h2>
+ <img src="/img/6.png">
  <p> Most of us have other disciplines and on some we could simply make busy such port as 5432<br>
   So to avoid problem of connection open docker-compose.dev.yml container image file<br>
   and change line 11 to such look '????(your numbers):5432'<br>
   and change port to your numbers on DataBase connection properties</p>
  <br>
  <h2>"cross-env" error</h2>
+ <img src="/img/5.png">
  <p> If after debugging program you face such error than simply "rollback" your package.json</p>
  <br>
  <h2> In conclusion</h2>
