@@ -68,4 +68,4 @@
  <br>
  <h2> In conclusion</h2>
  <p> In this topic was described most common problems that have me and my fellow students on setting up this proj on WINDOWS<br>
-  If there is something else that wasn't mentioned in this guide remember - I miss the part where this is my problem</p>
+  If there is something else that wasn't mentioned in this guide remember all in your hands</p>
