@@ -63,6 +63,9 @@
  <br>
  <h2>"cross-env" error</h2>
  <img src="/img/5.png">
+ <p>EDIT: Open terminal and setup cross-env with that comand:</p>
+ <ciat>npm install cross-env --save-dev</ciat>
+ <h3>Outdated:</h3>
  <p> If after debugging program you face such error than simply "rollback" your package.json</p>
  <img src="/img/4.png">
  <br>
